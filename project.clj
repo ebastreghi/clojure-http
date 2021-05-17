@@ -10,7 +10,10 @@
                  [ring/ring "1.2.0"]
                  [http-kit "2.2.0"]
                  [compojure "1.2.0-SNAPSHOT"]
-                 [ring/ring-json "0.2.0"]]
+                 [ring/ring-json "0.2.0"]
+                 [org.clojure/java.jdbc "0.3.6"]
+                 [postgresql/postgresql "8.4-702.jdbc4"]
+                 [clojure.jdbc/clojure.jdbc-c3p0 "0.3.2"]]
   :plugins [[lein-ring "0.12.5"]
             [lein-gorilla "0.4.0"]]
   :repl-options {:init-ns clojure-http.core})

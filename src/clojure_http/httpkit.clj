@@ -31,3 +31,6 @@
 
 (defn run-server []
   (reset! server (create-server)))
+
+(defn stop-server [server]
+  (server :timeout 100))
